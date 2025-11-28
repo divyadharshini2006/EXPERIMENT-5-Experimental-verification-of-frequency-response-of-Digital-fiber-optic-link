@@ -45,10 +45,9 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="402" height="240" alt="Screenshot 2025-11-28 at 9 32 54 AM" src="https://github.com/user-attachments/assets/b54becae-cd34-44d2-a647-79be013ed55c" />
 
 ---
-
 
 ## CONNECTION DIAGRAM  
 **Setting up a Digital Link**
@@ -62,16 +61,28 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+| 800HZ               |  2.5V                            |  0.3            |   -6.02         |
+| 1KHZ             |    32V                     |          6.4|       16.12     |
+| 2KHZ           |    34V                     |            6.8|          16.6|
+| 5KHZ           |    36V                       |           7.2 |          17.14|
+| 10KHZ           |    37V                        |           7.4   |          17.38 |
+| 20KHZ          |     37V                      |            7.4  |        17.38   |
+| 50KHZ          |     27V                      |           5.4   |        14.64    |
+| 100KHZ          |     27V                       |          5.4  |         14.64   |
+| 250KHZ         |      12.7V                     |           2.54 |         8.09   |
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="411" height="202" alt="Screenshot 2025-11-28 at 9 33 01 AM" src="https://github.com/user-attachments/assets/5247b535-0784-4403-a524-a069bb0277c6" />
+
+## OUTPUT GRAPH
+
+<img width="1600" height="1335" alt="image" src="https://github.com/user-attachments/assets/b3c082b7-1d96-42ec-bbec-fd1bd6606914" />
 
 ---
 
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+Thus the relationship between input and received signal of a 660nm fiber optic cable using digital link are verified .
